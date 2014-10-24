@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = 'src/*.{h,m}', 'src/**/*.{h,m}','lib/*.{h,m}',
   s.exclude_files = 'Classes/Exclude'
   s.framework = 'CFNetwork'
-
+  s.dependency "CocoaAsyncSocket"
 
   s.requires_arc = false
 
